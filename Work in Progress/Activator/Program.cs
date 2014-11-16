@@ -30,6 +30,12 @@ namespace Activator
             //Auto Ignite
             AutoIgnite.AddToMenu(Config.Menu);
            
+            //Auto Clarity
+            AutoClarity.AddToMenu(Config.Menu);
+
+            //Stealth Recall
+            StealthRecall.AddToMenu(Config.Menu);
+
             Config.Menu.AddToMainMenu();
 
             //PrintChat
